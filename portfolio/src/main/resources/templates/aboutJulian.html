@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>About Julian</title>
-</head>
-<body>
-    <h1>About Julian</h1>
-</body>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+              rel="stylesheet"
+              integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+              crossorigin="anonymous">
+        <title>About Julian</title>
+    </head>
+    <body>
+        <div th:insert="fragments/header :: header"></div>
+        <h1>About Julian</h1>
+        <div th:insert="fragments/footer :: footer"></div>
+    </body>
 </html>

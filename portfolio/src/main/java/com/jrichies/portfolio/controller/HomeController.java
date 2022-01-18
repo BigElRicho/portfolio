@@ -11,15 +11,4 @@ public class HomeController {
         return "index";
     }
 
-    @GetMapping("/aboutJulian")
-    public String aboutJulian(){
-        return "aboutJulian";
-    }
-
-    @GetMapping("/contactJulian")
-    public String contactJulian(){
-        return "contactJulian";
-    }
-
-
 }
